@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shadowrunpage</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">Shadowrunpage</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="menu">
+                <li>
+                    <a href="#" data-toggle="dropdown">People <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Character Showroom</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Connections</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Bad Guys</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" data-toggle="dropdown">Fluff<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Log</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">POI</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Bla</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Utility</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <form class="form-horizontal">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>Character Upload</legend>
+
+                <!-- Text input-->
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Name:</label>
+                        <div class="col-md-4">
+                            <input id="textinput" placeholder='i.e. "Johnny Quicksilver"' class="form-control input-md" type="text"> </input>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Select Basic -->
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="selectbasic">Race:</label>
+                        <div class="col-md-4">
+                            <select id="selectbasic" class="form-control">
+                                <option value="1">Elf</option>
+                                <option value="2">Dwarf</option>
+                                <option value="3">Human</option>
+                                <option value="4">Orc</option>
+                                <option value="5">Troll</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- Select Basic -->
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="selectbasic">Job:</label>
+                        <div class="col-md-4">
+                            <select id="selectbasic" class="form-control">
+                                <option value="1">Fighter</option>
+                                <option value="2">Hacker</option>
+                                <option value="3">Rigger</option>
+                                <option value="4">Wizard</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text area-->
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">History:</label>
+                        <div class="col-md-4">
+                            <textarea id="textarea" placeholder="Where are you born? Who are your parents? What did you do before? Where did you achieve your skils?" class="form-control input-md" type="text"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Button (Double) -->
+                <div class="row">
+                    <div class="form-group">
+                    <div class="col-md-offset-4 col-md-8">
+                        <button id="button1id" class="btn btn-success">Submit</button>
+                        <button id="button2id" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

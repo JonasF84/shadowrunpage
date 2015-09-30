@@ -2,18 +2,6 @@
     font-size: 32px;
 }
 
-
-.inverse-dropdown{
-  background-color: #222;
-  border-color: #080808;
-  &>li>a{
-    color: ##9D9D9D;
-    &:hover{
-      color: #fff;
-      background-color: #000;
-    }
-  }
-  &>.divider {
-    background-color: #000;
-  }
+#textarea {
+    height: 500px;
 }
