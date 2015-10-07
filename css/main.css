@@ -5,3 +5,15 @@
 #textarea {
     height: 500px;
 }
+
+#black {
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textContainer {
+  background-color: #fff;
+  border-radius: 6px;
+}
