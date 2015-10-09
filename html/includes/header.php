@@ -9,11 +9,13 @@
         $bootstrapJSSource = "js/bootstrap.min.js";
         $bootstrapCSSSource = "css/bootstrap.min.css";
         $mainCSSSource = "css/main.css";
+        $navbarBrandLink = "index.php";
       }
       else {
         $bootstrapJSSource = "../js/bootstrap.min.js";
         $bootstrapCSSSource = "../css/bootstrap.min.css";
-        $mainCSSSource = "../css/main.cs";
+        $mainCSSSource = "../css/main.css";
+        $navbarBrandLink = "../index.php";
       }
       ?>
       <script language="javascript" type="text/javascript" src="<?= $bootstrapJSSource ?>"></script>
@@ -25,7 +27,7 @@
       <div class="navbar navbar-default navbar-static-top">
           <div class="container">
               <div class="navbar-header">
-                  <a href="index.php" class="navbar-brand">Shadowrunpage</a>
+                  <a href="<?= $navbarBrandLink ?>" class="navbar-brand">Shadowrunpage</a>
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
